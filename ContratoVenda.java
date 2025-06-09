@@ -5,8 +5,8 @@ public class ContratoVenda extends Contrato {
     private double percentualCorretor;
 
     public ContratoVenda(Imovel imovel, String dataInicio, double valorPrincipal,
-                         Pessoa comprador, Corretor corretor,
-                         double percentualImobiliaria, double percentualCorretor) {
+                        Pessoa comprador, Corretor corretor,
+                        double percentualImobiliaria, double percentualCorretor) {
         super(imovel, dataInicio, valorPrincipal);
         this.comprador = comprador;
         this.corretor = corretor;

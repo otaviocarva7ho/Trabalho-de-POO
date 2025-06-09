@@ -9,8 +9,8 @@ public class ContratoLocacao extends Contrato {
 
     // Construtor
     public ContratoLocacao(Imovel imovel, String dataInicio, double valorPrincipal,
-                           Locatario locatario, DevedorServico devserv,
-                           double multaAtraso, double multaRescisao) {
+                        Locatario locatario, DevedorServico devserv,
+                        double multaAtraso, double multaRescisao) {
         super(imovel, dataInicio, valorPrincipal);
         this.locatario = locatario;
         this.devserv = devserv;
