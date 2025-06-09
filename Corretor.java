@@ -13,4 +13,8 @@ public class Corretor extends Pessoa{
     public void setComissaoRecebida(double comissaoRecebida) {
         this.comissaoRecebida = comissaoRecebida;
     }
+
+    public void adicionarComissao(double valor) {
+        this.comissaoRecebida += valor;
+    }
 }

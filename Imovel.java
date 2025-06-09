@@ -54,6 +54,10 @@ public abstract class Imovel {
         this.iptu = iptu;
     }
 
+    public ParticipacaoProprietario[] getParticipacoes() {
+        return participacoes;
+    }
+
     public void incluiParticipacaoProprietario(Proprietario prop, double percentual) {
         for (int i = 0; i < participacoes.length; i++) {
             if (participacoes[i] == null) {
